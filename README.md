@@ -14,6 +14,8 @@ This application consists of a single microservice that will take the the time i
 
 In order to send the request for the time zone to be converted, all three fields must be selected with a value: the input time, initial time zone, and desired time zone. Once these fields are selected, the chosen options are saved in the front end. These options are then sent to the back end via an API by clicking on the button at the bottom of the application named "Get Time". One the button is clicked, the API is called to send the data to the back end where the input data is used to convert the time input into the desired time zone's equivalent. 
 
-## UML diagram
+## UML Diagram
+
+![UML Diagram](UMLdiagram.PNG)
 
 
